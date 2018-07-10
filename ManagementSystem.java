@@ -27,7 +27,7 @@ display_menu();
         System.out.println ( "salesman" );
         break;
       default:
-        System.err.println ( "Please insert a valid number" );
+        System.out.println ( "Please insert a valid number" );
         break;  
       }
     System.out.print("Thank you for using MangmentSystem!");

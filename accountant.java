@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class accountant {
   int hours;
   hours = 40
@@ -7,4 +5,6 @@ public class accountant {
   salary = 65000
   string occupationName;
   occupationName = "accountant"
+
+
 }

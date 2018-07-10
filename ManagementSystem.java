@@ -7,11 +7,11 @@ public static void main(String[] args)
   {
 
   System.out.println("Enter 1 for hours");
-  System.out.println(Enter 2 for salary");
+  System.out.println("Enter 2 for salary");
   System.out.println("Enter 3 for occupation");
 
   System.out.println("Enter operation number here");
-  Scanner scan = New Scanner
+  Scanner in = New Scanner;
 
 
 display_menu();

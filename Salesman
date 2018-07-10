@@ -15,7 +15,7 @@ public static void main(String[] args)
 
 
 display_menu();
-    switch ( in.nextInt() ) 
+    switch (in.nextInt() ) 
      {
       case 1:
         System.out.println ( "40" );
@@ -30,7 +30,7 @@ display_menu();
         System.err.println ( "Please insert a valid number" );
         break;  
       }
-    System.out.print("Thank you for using MangmentSystem!")
+    System.out.print("Thank you for using MangmentSystem!");
   
     
   }

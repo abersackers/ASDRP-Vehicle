@@ -1,17 +1,13 @@
-public class accountant extends employee {
+public class accountant extends Employee {
 
   int hours = 40;
   double salary = 65000;
-  string occupationName = "accountant";
+  String occupationName = "accountant";
 
-  public accountant(int hrs, double slry, string occName) {
+  public accountant(int hrs, double slry, String occName) {
     hours = hrs;
     salary = slry;
     occupationName = occName;
-  }
-
-  public static void main(String[] args) {
-    accountant myAccountant = new accountant();
   }
 
   public int getHours() {
@@ -20,7 +16,7 @@ public class accountant extends employee {
   public double salary() {
     return salary;
   }
-  public string occupationName() {
+  public String occupationName() {
     return occupationName;
   }
 

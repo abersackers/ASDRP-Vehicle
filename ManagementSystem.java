@@ -7,15 +7,15 @@ public static void main(String[] args)
   {
 
   System.out.println("Enter 1 for hours");
-  System.out.println(Enter 2 for salary");
+  System.out.println("Enter 2 for salary");
   System.out.println("Enter 3 for occupation");
 
   System.out.println("Enter operation number here");
-  Scanner scan = New Scanner
+  Scanner in = New Scanner;
 
 
 display_menu();
-    switch ( in.nextInt() ) 
+    switch (in.nextInt() ) 
      {
       case 1:
         System.out.println ( "40" );
@@ -27,10 +27,10 @@ display_menu();
         System.out.println ( "salesman" );
         break;
       default:
-        System.err.println ( "Please insert a valid number" );
+        System.out.println ( "Please insert a valid number" );
         break;  
       }
-    System.out.print("Thank you for using MangmentSystem!")
+    System.out.print("Thank you for using MangmentSystem!");
   
     
   }
